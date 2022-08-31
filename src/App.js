@@ -22,14 +22,14 @@ class App extends Component {
       <div className="App">
       <div className="container">
         <br/>
-        <div className='row'>
+        <div className='row mb-3'>
           <div className='col-md-6'>
             <p class="h2 mb-0">IMDb Top 250 Movies</p>
-            <p><small className='disabled'>IMDb Top 250 as rated by regular IMDb voters.</small></p>
+            <p style={{fontSize:'15.5px'}}>IMDb Top 250 as rated by regular IMDb voters.</p>
           </div>
           <div className='col-md-6'>
-          <p><small>Developed by <a className='link' href='https://www.facebook.com/mkzjahad/'><i class="fa-brands fa-facebook"></i> KZJAHAD</a></small></p>
-          <p><small>Source code here <a className='link' href='https://www.facebook.com/mkzjahad/'><i class="fa-brands fa-github"></i> KZJAHAD</a></small></p>
+               <p className='h3 d-flex justify-content-end fb-link'><a className='link' href='https://www.facebook.com/mkzjahad/'><i class="fa-brands fa-facebook"></i> KZJAHAD</a></p>
+               <p className='d-flex justify-content-end '><small>SOURCE CODE HERE <a className='link' href='https://github.com/kzjahad/IMDb-Top-250-Movies-Using-React.git'><i class="fa-brands fa-github"></i> GitHub</a></small></p>
           </div>
         </div>
         <table class="table table-striped">
