@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+.yellow-star{
+    color: rgb(255, 200, 0);
+    padding-right: 0px !important;
+    /* justify-content: center !important;
+    align-items: center !important; */
+}
+.ash-star:hover{
+    color: #136CB2;
+}
+.data{
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.poster{
+     height: 60%;
+     width: 60%;
+}
+.title{
+    color: #136CB2;
+    text-decoration: none;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.link{
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+}
+thead{
+    color: #666;
+}
